@@ -1,0 +1,11 @@
+version: 2
+registries:
+  example:
+    type: npm-registry
+    url: https://example.com
+updates:
+  - package-ecosystem: "npm"
+    directory: "/javascript"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 0
